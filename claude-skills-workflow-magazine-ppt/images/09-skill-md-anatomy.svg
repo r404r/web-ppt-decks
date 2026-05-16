@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" role="img" aria-labelledby="title desc">
+  <title id="title">SKILL.md anatomy</title>
+  <desc id="desc">A forest ink diagram showing YAML frontmatter and instruction workflow inside a SKILL.md file.</desc>
+  <rect width="1600" height="1000" fill="#1a2e1f"/>
+  <g opacity=".15" stroke="#f5f1e8" fill="none">
+    <path d="M100 160H1500M100 320H1500M100 480H1500M100 640H1500M100 800H1500"/>
+    <path d="M260 90V900M520 90V900M780 90V900M1040 90V900M1300 90V900"/>
+  </g>
+  <g transform="translate(280 105)">
+    <rect width="1040" height="790" fill="#f5f1e8"/>
+    <rect width="1040" height="64" fill="#253d2c"/>
+    <circle cx="42" cy="32" r="8" fill="#f5f1e8" opacity=".9"/>
+    <circle cx="72" cy="32" r="8" fill="#f5f1e8" opacity=".58"/>
+    <circle cx="102" cy="32" r="8" fill="#f5f1e8" opacity=".35"/>
+    <text x="835" y="42" fill="#f5f1e8" font-family="IBM Plex Mono, monospace" font-size="24">SKILL.md</text>
+    <g font-family="IBM Plex Mono, monospace" font-size="28" fill="#1a2e1f">
+      <text x="70" y="128">---</text>
+      <text x="70" y="178">name: webinar-follow-up</text>
+      <text x="70" y="228">description: Draft follow-up emails...</text>
+      <text x="70" y="278">---</text>
+    </g>
+    <rect x="58" y="94" width="925" height="214" fill="none" stroke="#c58952" stroke-width="5"/>
+    <text x="725" y="348" fill="#c58952" font-family="Noto Sans SC, sans-serif" font-size="32" font-weight="700">触发条件</text>
+    <g font-family="Noto Sans SC, sans-serif" fill="#1a2e1f">
+      <text x="72" y="405" font-size="34" font-weight="700">工作流说明</text>
+      <text x="72" y="470" font-size="28">1. 读取输入与缺失信息</text>
+      <text x="72" y="525" font-size="28">2. 套用真实优秀样例</text>
+      <text x="72" y="580" font-size="28">3. 处理边界情况</text>
+      <text x="72" y="635" font-size="28">4. 按固定格式交付结果</text>
+      <text x="72" y="710" font-size="26" opacity=".72">禁止：“格式好看一点”“适当处理”这类不可测试描述</text>
+    </g>
+    <path d="M645 115h255M645 175h255M645 235h255" stroke="#1a2e1f" stroke-width="4" opacity=".22"/>
+  </g>
+</svg>

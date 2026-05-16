@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" role="img" aria-labelledby="title desc">
+  <title id="title">Claude Skills lifecycle</title>
+  <desc id="desc">Four phase workflow map for installing, building, testing, and scaling Claude Skills.</desc>
+  <rect width="1600" height="1000" fill="#f5f1e8"/>
+  <g opacity=".16" stroke="#1a2e1f" stroke-width="3">
+    <path d="M120 220H1480M120 500H1480M120 780H1480"/>
+    <path d="M400 120V880M800 120V880M1200 120V880"/>
+  </g>
+  <g font-family="Noto Sans SC, sans-serif">
+    <g transform="translate(155 250)">
+      <rect width="275" height="360" fill="#1a2e1f"/>
+      <text x="32" y="76" fill="#f5f1e8" font-size="34" font-weight="700">安装</text>
+      <text x="32" y="132" fill="#f5f1e8" font-size="24">找一个真实任务</text>
+      <text x="32" y="178" fill="#f5f1e8" font-size="24">装一个现成 Skill</text>
+      <text x="32" y="224" fill="#f5f1e8" font-size="24">比较速度与质量</text>
+      <text x="32" y="316" fill="#c58952" font-size="42" font-family="IBM Plex Mono, monospace">01</text>
+    </g>
+    <g transform="translate(495 250)">
+      <rect width="275" height="360" fill="#253d2c"/>
+      <text x="32" y="76" fill="#f5f1e8" font-size="34" font-weight="700">创建</text>
+      <text x="32" y="132" fill="#f5f1e8" font-size="24">三问测试</text>
+      <text x="32" y="178" fill="#f5f1e8" font-size="24">写 SKILL.md</text>
+      <text x="32" y="224" fill="#f5f1e8" font-size="24">放入正确目录</text>
+      <text x="32" y="316" fill="#c58952" font-size="42" font-family="IBM Plex Mono, monospace">02</text>
+    </g>
+    <g transform="translate(835 250)">
+      <rect width="275" height="360" fill="#1a2e1f"/>
+      <text x="32" y="76" fill="#f5f1e8" font-size="34" font-weight="700">测试</text>
+      <text x="32" y="132" fill="#f5f1e8" font-size="24">Happy path</text>
+      <text x="32" y="178" fill="#f5f1e8" font-size="24">Edge case</text>
+      <text x="32" y="224" fill="#f5f1e8" font-size="24">Stress test</text>
+      <text x="32" y="316" fill="#c58952" font-size="42" font-family="IBM Plex Mono, monospace">03</text>
+    </g>
+    <g transform="translate(1175 250)">
+      <rect width="275" height="360" fill="#253d2c"/>
+      <text x="32" y="76" fill="#f5f1e8" font-size="34" font-weight="700">库化</text>
+      <text x="32" y="132" fill="#f5f1e8" font-size="24">按频率排序</text>
+      <text x="32" y="178" fill="#f5f1e8" font-size="24">每周新增一个</text>
+      <text x="32" y="224" fill="#f5f1e8" font-size="24">维护版本清单</text>
+      <text x="32" y="316" fill="#c58952" font-size="42" font-family="IBM Plex Mono, monospace">04</text>
+    </g>
+  </g>
+  <path d="M435 430h45M775 430h45M1115 430h45" stroke="#c58952" stroke-width="10" stroke-linecap="round"/>
+  <path d="M465 408l26 22-26 22M805 408l26 22-26 22M1145 408l26 22-26 22" fill="none" stroke="#c58952" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

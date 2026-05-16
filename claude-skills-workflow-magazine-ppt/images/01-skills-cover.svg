@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" role="img" aria-labelledby="title desc">
+  <title id="title">Claude Skills magazine cover</title>
+  <desc id="desc">Forest ink editorial cover showing skill folders becoming an automated workflow system.</desc>
+  <defs>
+    <linearGradient id="paper" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f5f1e8"/>
+      <stop offset="1" stop-color="#ece7da"/>
+    </linearGradient>
+    <pattern id="grain" width="14" height="14" patternUnits="userSpaceOnUse">
+      <path d="M2 6h1M7 2h1M12 10h1M4 13h1" stroke="#1a2e1f" stroke-opacity=".18"/>
+    </pattern>
+  </defs>
+  <rect width="1600" height="1000" fill="url(#paper)"/>
+  <rect width="1600" height="1000" fill="url(#grain)" opacity=".55"/>
+  <g fill="none" stroke="#1a2e1f" opacity=".18">
+    <path d="M-60 760C220 620 415 690 635 480S1070 130 1660 210" stroke-width="5"/>
+    <path d="M-80 870C245 710 505 760 720 560S1135 250 1655 330" stroke-width="2"/>
+    <path d="M-40 610C215 540 420 560 585 390S970 130 1665 120" stroke-width="2"/>
+  </g>
+  <g transform="translate(230 185)">
+    <g transform="translate(0 40)">
+      <rect x="0" y="52" width="420" height="250" rx="8" fill="#1a2e1f"/>
+      <path d="M0 62h138l34-42h154c52 0 94 42 94 94v38H0z" fill="#253d2c"/>
+      <path d="M58 136h260M58 188h210M58 240h286" stroke="#f5f1e8" stroke-width="12" opacity=".92"/>
+    </g>
+    <g transform="translate(450 0)">
+      <rect x="0" y="52" width="420" height="250" rx="8" fill="#1a2e1f"/>
+      <path d="M0 62h138l34-42h154c52 0 94 42 94 94v38H0z" fill="#253d2c"/>
+      <path d="M58 136h252M58 188h286M58 240h174" stroke="#f5f1e8" stroke-width="12" opacity=".92"/>
+    </g>
+    <g transform="translate(900 88)">
+      <rect x="0" y="52" width="420" height="250" rx="8" fill="#1a2e1f"/>
+      <path d="M0 62h138l34-42h154c52 0 94 42 94 94v38H0z" fill="#253d2c"/>
+      <path d="M58 136h286M58 188h188M58 240h256" stroke="#f5f1e8" stroke-width="12" opacity=".92"/>
+    </g>
+  </g>
+  <g fill="none" stroke="#c58952" stroke-width="9" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M560 655C690 715 840 716 970 655"/>
+    <path d="M940 622l44 34-48 28"/>
+  </g>
+  <g transform="translate(525 700)">
+    <rect width="550" height="86" fill="#1a2e1f"/>
+    <text x="36" y="55" fill="#f5f1e8" font-family="IBM Plex Mono, monospace" font-size="34" letter-spacing="3">SKILL.md  ->  WORKFLOW</text>
+  </g>
+</svg>
