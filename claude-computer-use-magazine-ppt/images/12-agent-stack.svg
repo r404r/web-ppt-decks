@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" role="img" aria-labelledby="title desc">
+  <title id="title">Long running computer use agent stack</title>
+  <desc id="desc">A forest ink magazine style stack diagram for cache, rolling buffer, compaction, safety, and debugging.</desc>
+  <rect width="1600" height="1000" fill="#1a2e1f"/>
+  <g opacity=".16" fill="none" stroke="#f5f1e8">
+    <path d="M90 150H1510M90 300H1510M90 450H1510M90 600H1510M90 750H1510"/>
+    <path d="M260 90V890M520 90V890M780 90V890M1040 90V890M1300 90V890"/>
+  </g>
+  <g transform="translate(205 120)" font-family="Noto Sans SC, sans-serif">
+    <g>
+      <rect width="1190" height="116" fill="#f5f1e8"/>
+      <text x="42" y="70" fill="#1a2e1f" font-size="40" font-weight="700">稳定前缀</text>
+      <text x="268" y="70" fill="#1a2e1f" font-size="30">系统提示 / 工具定义 / 用户目标</text>
+    </g>
+    <g transform="translate(0 154)">
+      <rect width="1190" height="116" fill="#ece7da"/>
+      <text x="42" y="70" fill="#1a2e1f" font-size="40" font-weight="700">缓存断点</text>
+      <text x="268" y="70" fill="#1a2e1f" font-size="30">1 个稳定前缀 + 3 个最近工具结果</text>
+    </g>
+    <g transform="translate(0 308)">
+      <rect width="1190" height="116" fill="#f5f1e8"/>
+      <text x="42" y="70" fill="#1a2e1f" font-size="40" font-weight="700">滚动缓冲</text>
+      <text x="268" y="70" fill="#1a2e1f" font-size="30">保留最近 3 张截图，按批次替换旧图</text>
+    </g>
+    <g transform="translate(0 462)">
+      <rect width="1190" height="116" fill="#ece7da"/>
+      <text x="42" y="70" fill="#1a2e1f" font-size="40" font-weight="700">压缩摘要</text>
+      <text x="268" y="70" fill="#1a2e1f" font-size="30">接近阈值时保留任务、进度、错误和下一步</text>
+    </g>
+    <g transform="translate(0 616)">
+      <rect width="1190" height="116" fill="#c58952"/>
+      <text x="42" y="70" fill="#1a2e1f" font-size="40" font-weight="800">人工确认</text>
+      <text x="268" y="70" fill="#1a2e1f" font-size="30">高风险动作暂停，请用户授权</text>
+    </g>
+  </g>
+  <g fill="none" stroke="#f5f1e8" stroke-width="7" stroke-linecap="round">
+    <path d="M800 884c-110 0-198-88-198-198"/>
+    <path d="M602 686l-28 42M602 686l42 28"/>
+    <path d="M800 884c110 0 198-88 198-198"/>
+    <path d="M998 686l28 42M998 686l-42 28"/>
+  </g>
+</svg>

@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" role="img" aria-labelledby="title desc">
+  <title id="title">Coordinate scaling infographic</title>
+  <desc id="desc">An editorial diagram showing screenshot downscaling and coordinate scaling back to native screen size.</desc>
+  <rect width="1600" height="1000" fill="#f5f1e8"/>
+  <g fill="none" stroke="#1a2e1f" stroke-width="4" opacity=".18">
+    <path d="M0 150H1600M0 300H1600M0 450H1600M0 600H1600M0 750H1600M0 900H1600"/>
+    <path d="M160 0V1000M320 0V1000M480 0V1000M640 0V1000M800 0V1000M960 0V1000M1120 0V1000M1280 0V1000M1440 0V1000"/>
+  </g>
+  <g transform="translate(118 205)">
+    <rect width="550" height="350" fill="#253d2c"/>
+    <rect x="34" y="42" width="482" height="266" fill="#f5f1e8" opacity=".95"/>
+    <path d="M86 112h330M86 168h260M86 224h180" stroke="#1a2e1f" stroke-width="13" stroke-linecap="square"/>
+    <circle cx="388" cy="219" r="24" fill="#c58952"/>
+    <path d="M388 219l64-68" stroke="#c58952" stroke-width="9" stroke-linecap="round"/>
+  </g>
+  <g transform="translate(932 260)">
+    <rect width="430" height="274" fill="#253d2c"/>
+    <rect x="26" y="32" width="378" height="208" fill="#f5f1e8" opacity=".95"/>
+    <path d="M68 86h258M68 130h205M68 175h142" stroke="#1a2e1f" stroke-width="10" stroke-linecap="square"/>
+    <circle cx="304" cy="171" r="18" fill="#c58952"/>
+  </g>
+  <path d="M704 386C766 344 828 342 896 386" fill="none" stroke="#1a2e1f" stroke-width="12" stroke-linecap="round"/>
+  <path d="M872 344l36 42-50 22" fill="none" stroke="#1a2e1f" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+  <g fill="#1a2e1f" font-family="IBM Plex Mono, monospace" font-weight="600">
+    <text x="118" y="620" font-size="46">native screen</text>
+    <text x="118" y="674" font-size="34" opacity=".72">screen_w / screen_h</text>
+    <text x="932" y="620" font-size="46">display image</text>
+    <text x="932" y="674" font-size="34" opacity=".72">display_width_px / display_height_px</text>
+  </g>
+  <g transform="translate(445 760)">
+    <rect width="710" height="92" fill="#1a2e1f"/>
+    <text x="36" y="58" fill="#f5f1e8" font-family="IBM Plex Mono, monospace" font-size="34">screen_x = api_x * screen_w / display_w</text>
+  </g>
+</svg>

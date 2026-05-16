@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" role="img" aria-labelledby="title desc">
+  <title id="title">Forest ink cover image for computer use agents</title>
+  <desc id="desc">A quiet editorial illustration of layered browser windows, coordinate points, and forest ink textures.</desc>
+  <defs>
+    <linearGradient id="paper" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f5f1e8"/>
+      <stop offset="1" stop-color="#dfd8c5"/>
+    </linearGradient>
+    <radialGradient id="glow" cx=".42" cy=".36" r=".72">
+      <stop offset="0" stop-color="#f4d9a7" stop-opacity=".62"/>
+      <stop offset=".45" stop-color="#7da07b" stop-opacity=".28"/>
+      <stop offset="1" stop-color="#1a2e1f" stop-opacity=".12"/>
+    </radialGradient>
+    <pattern id="grain" width="12" height="12" patternUnits="userSpaceOnUse">
+      <path d="M1 7h1M5 2h1M9 10h1M11 4h1" stroke="#1a2e1f" stroke-opacity=".18"/>
+    </pattern>
+  </defs>
+  <rect width="1600" height="1000" fill="url(#paper)"/>
+  <rect width="1600" height="1000" fill="url(#glow)"/>
+  <rect width="1600" height="1000" fill="url(#grain)" opacity=".55"/>
+  <g fill="none" stroke="#1a2e1f" stroke-opacity=".24">
+    <path d="M-80 820C220 660 390 690 585 470S1050 130 1690 210" stroke-width="5"/>
+    <path d="M-50 900C260 750 470 780 690 580S1100 260 1640 330" stroke-width="2"/>
+    <path d="M-40 720C230 610 420 605 575 420S955 145 1660 120" stroke-width="2"/>
+  </g>
+  <g transform="translate(310 245)">
+    <rect x="0" y="0" width="980" height="545" rx="10" fill="#f5f1e8" stroke="#1a2e1f" stroke-width="6"/>
+    <rect x="0" y="0" width="980" height="58" fill="#1a2e1f"/>
+    <circle cx="38" cy="29" r="8" fill="#f5f1e8" opacity=".92"/>
+    <circle cx="68" cy="29" r="8" fill="#f5f1e8" opacity=".55"/>
+    <circle cx="98" cy="29" r="8" fill="#f5f1e8" opacity=".35"/>
+    <g stroke="#1a2e1f" stroke-width="3" stroke-opacity=".42">
+      <path d="M92 154H830M92 218H700M92 282H820M92 346H610"/>
+      <path d="M92 410H430"/>
+    </g>
+    <g fill="#1a2e1f">
+      <circle cx="760" cy="216" r="18"/>
+      <circle cx="600" cy="346" r="12"/>
+      <circle cx="430" cy="154" r="10"/>
+    </g>
+    <g fill="none" stroke="#c58952" stroke-width="5" stroke-linecap="round">
+      <path d="M760 216L600 346L430 154"/>
+      <path d="M760 216l44-54"/>
+    </g>
+    <g transform="translate(655 96)">
+      <rect width="210" height="76" fill="#1a2e1f" opacity=".94"/>
+      <path d="M28 26h126M28 50h92" stroke="#f5f1e8" stroke-width="5"/>
+    </g>
+  </g>
+  <g transform="translate(1040 675)" fill="#1a2e1f" opacity=".88">
+    <path d="M0 0h120v18H0zM0 38h190v18H0zM0 76h150v18H0z"/>
+  </g>
+</svg>
