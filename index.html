@@ -1,0 +1,186 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>PPT Demo · Deck Index</title>
+  <style>
+    :root{
+      --paper:#fafaf8;
+      --ink:#0a0a0a;
+      --muted:#737373;
+      --line:#d4d4d2;
+      --fill:#f0f0ee;
+      --accent:#002FA7;
+      --accent-on:#fff;
+      --sans:Inter,"Helvetica Neue",Helvetica,Arial,"Noto Sans SC","PingFang SC",system-ui,-apple-system,sans-serif;
+      --mono:"JetBrains Mono","SFMono-Regular",Menlo,Consolas,monospace;
+    }
+    *{box-sizing:border-box}
+    html{background:var(--paper);color:var(--ink);font-family:var(--sans)}
+    body{margin:0;min-height:100vh;background:
+      linear-gradient(var(--line) 1px,transparent 1px),
+      linear-gradient(90deg,var(--line) 1px,transparent 1px),
+      var(--paper);
+      background-size:9.5vw 13vh;
+      background-position:5vw 0;
+    }
+    a{color:inherit}
+    .page{width:min(1440px,90vw);margin:0 auto;padding:7vh 0 8vh}
+    header{display:grid;grid-template-columns:1fr auto;gap:4vw;align-items:start;border-bottom:1px solid var(--ink);padding-bottom:4vh}
+    .meta{font-family:var(--mono);font-size:12px;line-height:1.4;letter-spacing:.22em;text-transform:uppercase;color:var(--muted)}
+    h1{margin:7vh 0 0;font-size:clamp(58px,9vw,140px);line-height:.92;font-weight:200;letter-spacing:0}
+    .intro{max-width:54ch;margin-top:2.4vh;font-size:clamp(16px,1.35vw,22px);line-height:1.7;font-weight:300;color:#333}
+    .count{display:flex;flex-direction:column;align-items:flex-end;gap:1vh}
+    .count strong{font-size:clamp(52px,7vw,104px);line-height:.85;font-weight:200;color:var(--accent)}
+    .grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px;margin-top:5vh}
+    .deck{background:rgba(250,250,248,.94);border-top:3px solid var(--ink);min-height:330px;padding:28px;display:flex;flex-direction:column;justify-content:space-between}
+    .deck.featured{background:var(--ink);color:var(--paper);border-top-color:var(--accent)}
+    .deck.featured .deck-desc,.deck.featured .deck-date,.deck.featured .source{color:rgba(250,250,248,.72)}
+    .deck-top{display:grid;grid-template-columns:auto 1fr;gap:24px;align-items:start}
+    .num{font-size:clamp(42px,5vw,76px);line-height:.9;font-weight:200;color:var(--accent);min-width:90px}
+    .deck-title{margin:0;font-size:clamp(25px,2.4vw,42px);line-height:1.1;font-weight:300;letter-spacing:0}
+    .deck-desc{margin:18px 0 0;color:#333;font-size:16px;line-height:1.7;font-weight:300}
+    .deck-date{margin-top:20px;color:var(--muted);font-family:var(--mono);font-size:12px;letter-spacing:.12em;text-transform:uppercase}
+    .actions{display:flex;flex-wrap:wrap;gap:10px;margin-top:26px}
+    .btn{display:inline-flex;align-items:center;justify-content:center;min-height:42px;padding:0 16px;border:1px solid var(--ink);text-decoration:none;font-size:13px;font-weight:500;letter-spacing:.08em;text-transform:uppercase;background:transparent}
+    .btn.primary{background:var(--accent);border-color:var(--accent);color:var(--accent-on)}
+    .deck.featured .btn{border-color:rgba(250,250,248,.55)}
+    .deck.featured .btn.primary{border-color:var(--accent)}
+    .source{font-size:13px;line-height:1.6;color:var(--muted);margin-top:14px}
+    footer{display:flex;justify-content:space-between;gap:3vw;margin-top:6vh;padding-top:2vh;border-top:1px solid var(--line);color:var(--muted)}
+    footer span{font-family:var(--mono);font-size:12px;letter-spacing:.16em;text-transform:uppercase}
+    @media (max-width:860px){
+      .page{width:min(92vw,720px);padding-top:5vh}
+      header{grid-template-columns:1fr}
+      .count{align-items:flex-start}
+      .grid{grid-template-columns:1fr}
+      .deck{min-height:0}
+      .deck-top{grid-template-columns:1fr}
+      .num{min-width:0}
+      footer{flex-direction:column}
+    }
+  </style>
+</head>
+<body>
+  <main class="page">
+    <header>
+      <div>
+        <div class="meta">PPT Demo / Web Deck Index</div>
+        <h1>网页 PPT<br>播放目录</h1>
+        <p class="intro">当前项目中的所有可播放 deck。每份 PPT 都是独立目录，点击“打开 PPT”即可在浏览器中横向翻页播放；带外部来源的卡片提供原文链接。</p>
+      </div>
+      <div class="count" aria-label="共有 5 份 PPT">
+        <span class="meta">Total Decks</span>
+        <strong>05</strong>
+      </div>
+    </header>
+
+    <section class="grid" aria-label="PPT 列表">
+      <article class="deck featured">
+        <div>
+          <div class="deck-top">
+            <div class="num">01</div>
+            <div>
+              <h2 class="deck-title">CGNAT 识别：判断家庭宽带是否拥有独立公网 IPv4</h2>
+              <p class="deck-desc">基于家庭宽带实测 memo 制作的瑞士风方法论 deck，解释如何用外部 ping、WAN IP 对比、端口检测和 traceroute 判断 CGNAT。</p>
+              <div class="deck-date">Memo date · 2026-05-16</div>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div class="source">来源：本地 memo，无外部文章。</div>
+          <div class="actions">
+            <a class="btn primary" href="cgnat-swiss-ppt/index.html">打开 PPT</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="deck">
+        <div>
+          <div class="deck-top">
+            <div class="num">02</div>
+            <div>
+              <h2 class="deck-title">Claude Code 在大代码库中如何工作</h2>
+              <p class="deck-desc">中文瑞士风简报，梳理 Claude Code 在 monorepo、遗留系统和企业级代码库中的搜索方式、harness 分层、维护节奏与组织落地。</p>
+              <div class="deck-date">Article date · 2026-05-14</div>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div class="source">来源：Claude Blog 外部文章。</div>
+          <div class="actions">
+            <a class="btn primary" href="claude-code-large-codebases-ppt/index.html">打开 PPT</a>
+            <a class="btn" href="https://claude.com/blog/how-claude-code-works-in-large-codebases-best-practices-and-where-to-start" target="_blank" rel="noopener noreferrer">原文</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="deck">
+        <div>
+          <div class="deck-top">
+            <div class="num">03</div>
+            <div>
+              <h2 class="deck-title">Anthropic 法务团队如何使用 Claude</h2>
+              <p class="deck-desc">中文瑞士风简报，讲述 Anthropic 法务团队如何用 Claude 把市场审查、合同红线、外部活动审批和隐私评估变成可复用工作流。</p>
+              <div class="deck-date">Article date · 2025-12-08</div>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div class="source">来源：Claude Blog 外部文章。</div>
+          <div class="actions">
+            <a class="btn primary" href="claude-legal-ppt/index.html">打开 PPT</a>
+            <a class="btn" href="https://claude.com/blog/how-anthropic-uses-claude-legal" target="_blank" rel="noopener noreferrer">原文</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="deck">
+        <div>
+          <div class="deck-top">
+            <div class="num">04</div>
+            <div>
+              <h2 class="deck-title">让 Claude 操作屏幕：Computer Use Best Practices</h2>
+              <p class="deck-desc">杂志风中文 deck，整理 Claude computer/browser use 的截图缩放、坐标精度、上下文管理、提示注入防护和长程 agent 架构实践。</p>
+              <div class="deck-date">Article date · 2026-05-13</div>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div class="source">来源：Claude Blog 外部文章。</div>
+          <div class="actions">
+            <a class="btn primary" href="claude-computer-use-magazine-ppt/index.html">打开 PPT</a>
+            <a class="btn" href="https://claude.com/blog/best-practices-for-computer-and-browser-use-with-claude" target="_blank" rel="noopener noreferrer">原文</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="deck">
+        <div>
+          <div class="deck-top">
+            <div class="num">05</div>
+            <div>
+              <h2 class="deck-title">Cowork 与插件：企业代理的新工作台</h2>
+              <p class="deck-desc">杂志风中文 deck，介绍 Cowork、插件、连接器、私有市场和跨 Office 应用工作流如何让 Claude 变成企业可分发的专用代理。</p>
+              <div class="deck-date">Article date · 2026-02-24</div>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div class="source">来源：Claude Blog 外部文章。</div>
+          <div class="actions">
+            <a class="btn primary" href="claude-cowork-plugins-magazine-ppt/index.html">打开 PPT</a>
+            <a class="btn" href="https://claude.com/blog/cowork-plugins-across-enterprise" target="_blank" rel="noopener noreferrer">原文</a>
+          </div>
+        </div>
+      </article>
+    </section>
+
+    <footer>
+      <span>Static HTML · GitHub Pages Ready</span>
+      <span>Last updated · 2026-05-17</span>
+    </footer>
+  </main>
+</body>
+</html>
