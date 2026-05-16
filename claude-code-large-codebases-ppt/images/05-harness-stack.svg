@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2100 900" role="img">
+  <rect width="2100" height="900" fill="#fafaf8"/>
+  <g font-family="Inter, Helvetica, Arial, sans-serif">
+    <text x="120" y="150" font-size="72" font-weight="200" fill="#0a0a0a">Harness > Model Alone</text>
+    <text x="124" y="205" font-size="28" font-weight="300" fill="#737373">大代码库的效果来自模型周围的工程系统。</text>
+    <g transform="translate(120 280)">
+      <rect width="1860" height="76" fill="#0a0a0a"/><text x="34" y="50" font-size="30" fill="#fafaf8">01 · CLAUDE.md：基础上下文与约定</text>
+      <rect y="92" width="1650" height="76" fill="#002FA7"/><text x="34" y="142" font-size="30" fill="#ffffff">02 · Hooks：自动检查与持续改进</text>
+      <rect y="184" width="1460" height="76" fill="#f0f0ee"/><text x="34" y="234" font-size="30" fill="#0a0a0a">03 · Skills：按需加载专业工作流</text>
+      <rect y="276" width="1280" height="76" fill="#0a0a0a"/><text x="34" y="326" font-size="30" fill="#fafaf8">04 · Plugins：把好设置分发给组织</text>
+      <rect y="368" width="1080" height="76" fill="#002FA7"/><text x="34" y="418" font-size="30" fill="#ffffff">05 · LSP：符号级导航</text>
+      <rect y="460" width="900" height="76" fill="#f0f0ee"/><text x="34" y="510" font-size="30" fill="#0a0a0a">06 · MCP：连接内部工具和数据</text>
+      <rect y="552" width="720" height="76" fill="#0a0a0a"/><text x="34" y="602" font-size="30" fill="#fafaf8">07 · Subagents：拆分探索与编辑</text>
+    </g>
+  </g>
+</svg>

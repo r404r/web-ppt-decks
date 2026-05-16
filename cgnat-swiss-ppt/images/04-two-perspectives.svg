@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2100 900" role="img" aria-labelledby="title desc">
+  <title id="title">两个视角对比公网 IP</title>
+  <desc id="desc">对比光猫 WAN IP 与外部检测 IP，一致才可能是真公网；100.64/10 是 CGNAT 明确信号。</desc>
+  <rect width="2100" height="900" fill="#fafaf8"/>
+  <g font-family="Inter, Helvetica, Arial, sans-serif">
+    <rect x="120" y="120" width="820" height="580" fill="#f0f0ee"/>
+    <rect x="1160" y="120" width="820" height="580" fill="#0a0a0a"/>
+    <text x="170" y="210" fill="#0a0a0a" font-size="44" font-weight="300">光猫 WAN 视角</text>
+    <text x="1210" y="210" fill="#fafaf8" font-size="44" font-weight="300">外部网站视角</text>
+    <text x="170" y="330" fill="#002FA7" font-size="86" font-weight="200">100.64.x.x</text>
+    <text x="1210" y="330" fill="#ffffff" font-size="86" font-weight="200">114.xxx.x.x</text>
+    <text x="170" y="405" fill="#737373" font-size="31" font-weight="300">RFC6598 CGNAT 专用段</text>
+    <text x="1210" y="405" fill="#bdbdbd" font-size="31" font-weight="300">运营商 NAT 出口地址</text>
+    <path d="M990 410h120" stroke="#002FA7" stroke-width="10"/>
+    <path d="M1090 375l70 35-70 35z" fill="#002FA7"/>
+    <rect x="170" y="520" width="690" height="88" fill="#fafaf8"/>
+    <text x="205" y="575" fill="#0a0a0a" font-size="30" font-weight="300">如果 WAN 与外部 IP 一致：继续 ping 验证</text>
+    <rect x="1210" y="520" width="690" height="88" fill="#002FA7"/>
+    <text x="1245" y="575" fill="#ffffff" font-size="30" font-weight="300">如果 WAN 是 100.64/10：CGNAT 确认</text>
+    <text x="120" y="805" fill="#0a0a0a" font-size="56" font-weight="200">只看 ifconfig.me 不够</text>
+    <text x="120" y="850" fill="#737373" font-size="26" font-weight="300">它只能告诉你“出口是谁”，不能证明外部能主动连接到你家。</text>
+  </g>
+</svg>

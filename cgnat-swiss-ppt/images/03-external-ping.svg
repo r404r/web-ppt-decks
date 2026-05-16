@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2100 900" role="img" aria-labelledby="title desc">
+  <title id="title">外部 ping 验证路径</title>
+  <desc id="desc">手机 4G 或 VPS 从外部网络 ping 家庭宽带出口 IP，判断是否能反向到达。</desc>
+  <rect width="2100" height="900" fill="#fafaf8"/>
+  <g fill="none" stroke="#d4d4d2" stroke-width="1">
+    <path d="M120 120h1860M120 260h1860M120 400h1860M120 540h1860M120 680h1860M120 820h1860"/>
+    <path d="M180 80v760M420 80v760M660 80v760M900 80v760M1140 80v760M1380 80v760M1620 80v760M1860 80v760"/>
+  </g>
+  <g font-family="Inter, Helvetica, Arial, sans-serif">
+    <rect x="145" y="260" width="390" height="260" fill="#0a0a0a"/>
+    <text x="185" y="340" fill="#fafaf8" font-size="44" font-weight="300">外部网络</text>
+    <text x="185" y="404" fill="#fafaf8" font-size="30" font-weight="300">手机 4G / VPS</text>
+    <text x="185" y="465" fill="#fafaf8" font-size="25" font-weight="300">不能从自家 LAN 测</text>
+    <rect x="760" y="260" width="450" height="260" fill="#002FA7"/>
+    <text x="805" y="340" fill="#ffffff" font-size="44" font-weight="300">公网出口 IP</text>
+    <text x="805" y="404" fill="#ffffff" font-size="30" font-weight="300">ifconfig.me 看到的地址</text>
+    <text x="805" y="465" fill="#ffffff" font-size="25" font-weight="300">可能只是 CGNAT 网关</text>
+    <rect x="1450" y="260" width="500" height="260" fill="#f0f0ee"/>
+    <text x="1495" y="340" fill="#0a0a0a" font-size="44" font-weight="300">家庭网络</text>
+    <text x="1495" y="404" fill="#0a0a0a" font-size="30" font-weight="300">光猫 / 路由 / NAS</text>
+    <text x="1495" y="465" fill="#737373" font-size="25" font-weight="300">外部是否能主动连入</text>
+    <path d="M560 390h160" stroke="#0a0a0a" stroke-width="8"/>
+    <path d="M704 360l60 30-60 30z" fill="#0a0a0a"/>
+    <path d="M1235 390h160" stroke="#0a0a0a" stroke-width="8"/>
+    <path d="M1379 360l60 30-60 30z" fill="#0a0a0a"/>
+    <circle cx="1015" cy="650" r="62" fill="#002FA7"/>
+    <path d="M980 650h70M1015 615v70" stroke="#ffffff" stroke-width="10"/>
+    <text x="845" y="765" fill="#0a0a0a" font-size="54" font-weight="200">0% loss = 真公网</text>
+    <text x="825" y="820" fill="#737373" font-size="28" font-weight="300">100% timeout = CGNAT 或 ICMP 过滤，继续用方法 2 复核</text>
+  </g>
+</svg>

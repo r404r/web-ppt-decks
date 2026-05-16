@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2100 900" role="img">
+  <rect width="2100" height="900" fill="#0a0a0a"/>
+  <g font-family="Inter, Helvetica, Arial, sans-serif">
+    <text x="120" y="130" font-size="68" fill="#fafaf8" font-weight="200">法律 AI 的运营模型</text>
+    <text x="124" y="188" font-size="28" fill="#d4d4d2" font-weight="300">不是替代律师，而是把专业判断前面的重复层压薄。</text>
+    <path d="M260 520h1580" stroke="#fafaf8" stroke-width="2"/>
+    <circle cx="330" cy="520" r="24" fill="#002FA7"/>
+    <circle cx="720" cy="520" r="24" fill="#002FA7"/>
+    <circle cx="1110" cy="520" r="24" fill="#002FA7"/>
+    <circle cx="1500" cy="520" r="24" fill="#002FA7"/>
+    <circle cx="1800" cy="520" r="24" fill="#002FA7"/>
+    <text x="250" y="430" font-size="34" fill="#fafaf8">PAIN</text>
+    <text x="235" y="470" font-size="24" fill="#d4d4d2">找重复任务</text>
+    <text x="620" y="615" font-size="34" fill="#fafaf8">SKILL</text>
+    <text x="565" y="655" font-size="24" fill="#d4d4d2">沉淀判断框架</text>
+    <text x="1000" y="430" font-size="34" fill="#fafaf8">MCP</text>
+    <text x="930" y="470" font-size="24" fill="#d4d4d2">连接知识源</text>
+    <text x="1385" y="615" font-size="34" fill="#fafaf8">REVIEW</text>
+    <text x="1330" y="655" font-size="24" fill="#d4d4d2">律师批准</text>
+    <text x="1708" y="430" font-size="34" fill="#fafaf8">LEARN</text>
+    <text x="1660" y="470" font-size="24" fill="#d4d4d2">更新工作流</text>
+    <rect x="120" y="760" width="1860" height="72" fill="#002FA7"/>
+    <text x="160" y="806" font-size="28" fill="#ffffff">守住边界：Claude 做初稿、分流和建议；律师保留责任、核验和最终判断。</text>
+  </g>
+</svg>

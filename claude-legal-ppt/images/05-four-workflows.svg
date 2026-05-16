@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2100 900" role="img">
+  <rect width="2100" height="900" fill="#fafaf8"/>
+  <g font-family="Inter, Helvetica, Arial, sans-serif">
+    <text x="120" y="145" font-size="72" fill="#0a0a0a" font-weight="200">4 Legal Workflows</text>
+    <text x="125" y="198" font-size="28" fill="#737373" font-weight="300">从重复战术任务到可复用工作流。</text>
+    <g transform="translate(120 280)">
+      <rect width="860" height="190" fill="#002FA7"/>
+      <text x="42" y="70" font-size="40" fill="#fff" font-weight="300">01 · 市场物料自审</text>
+      <text x="42" y="125" font-size="26" fill="#fff" font-weight="300">先标出宣传权、商标、统计准确性等风险</text>
+      <rect x="980" width="860" height="190" fill="#0a0a0a"/>
+      <text x="1022" y="70" font-size="40" fill="#fafaf8" font-weight="300">02 · 合同红线</text>
+      <text x="1022" y="125" font-size="26" fill="#d4d4d2" font-weight="300">比较版本、建议 fallback language</text>
+      <rect y="230" width="860" height="190" fill="#f0f0ee"/>
+      <text x="42" y="300" font-size="40" fill="#0a0a0a" font-weight="300">03 · 外部活动审批</text>
+      <text x="42" y="355" font-size="26" fill="#737373" font-weight="300">按 COI 框架分析员工申报并建议结果</text>
+      <rect x="980" y="230" width="860" height="190" fill="#002FA7"/>
+      <text x="1022" y="300" font-size="40" fill="#fff" font-weight="300">04 · 隐私影响评估</text>
+      <text x="1022" y="355" font-size="26" fill="#fff" font-weight="300">用历史 PIA + Skill 生成新模板草稿</text>
+    </g>
+    <text x="120" y="810" font-size="44" fill="#0a0a0a" font-weight="200">共同结构：业务先自助，Claude 先整理，律师做最终判断。</text>
+  </g>
+</svg>

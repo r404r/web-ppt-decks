@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2100 900" role="img" aria-labelledby="title desc">
+  <title id="title">上海电信实测 packet loss</title>
+  <desc id="desc">ifconfig 返回 114.xxx.xxx.xxx，但外部 4G ping 结果为 9 发 0 收，100% packet loss。</desc>
+  <rect width="2100" height="900" fill="#0a0a0a"/>
+  <g font-family="JetBrains Mono, SFMono-Regular, Menlo, monospace">
+    <rect x="140" y="120" width="1820" height="640" fill="#111"/>
+    <rect x="140" y="120" width="1820" height="58" fill="#002FA7"/>
+    <text x="180" y="160" fill="#ffffff" font-size="24">FIELD TEST · SHANGHAI TELECOM · 2026-05-16</text>
+    <text x="190" y="270" fill="#fafaf8" font-size="38">$ curl -s https://ifconfig.me/ip</text>
+    <text x="190" y="340" fill="#ffffff" font-size="64">114.xxx.xxx.xxx</text>
+    <text x="190" y="450" fill="#fafaf8" font-size="38">$ ping 114.xxx.xxx.xxx  # from 4G</text>
+    <text x="190" y="520" fill="#d4d4d2" font-size="34">9 packets transmitted, 0 received</text>
+    <text x="190" y="620" fill="#002FA7" font-size="90" font-weight="700">100% packet loss</text>
+    <path d="M1470 280h250v250h-250z" fill="none" stroke="#fafaf8" stroke-width="2"/>
+    <path d="M1510 490l170-170M1510 320l170 170" stroke="#002FA7" stroke-width="20"/>
+  </g>
+  <g font-family="Inter, Helvetica, Arial, sans-serif">
+    <text x="140" y="835" fill="#fafaf8" font-size="44" font-weight="200">结论：114.xxx.xxx.xxx 更像共享 NAT 出口，而不是可被外部主动到达的家庭 IP。</text>
+  </g>
+</svg>
